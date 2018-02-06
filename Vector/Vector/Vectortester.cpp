@@ -35,8 +35,8 @@ int main() {
 	cout << "Vector A * Vector B \n"; 
 	cout << (test1 * test2) << endl;
 
-	cout << "Vector A[0]\n";
-	cout << test1[0] << endl;
+	cout << "Vector A[1]\n";
+	cout << test1[1] << endl;
 
 	return 0;
 }

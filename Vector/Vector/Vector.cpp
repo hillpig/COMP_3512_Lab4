@@ -130,6 +130,7 @@ double Vector::operator[] (int x) const{
 	case 2:
 		return this->z;
 	default:
-		throw "null index!";
+		cout << "Null index!" << endl;
+		exit(EXIT_SUCCESS);
 	}
 }
