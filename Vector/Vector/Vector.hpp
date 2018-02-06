@@ -6,6 +6,7 @@
 using namespace std;
 
 
+
 class Vector {
 	double x, y, z;
 
@@ -34,4 +35,5 @@ public:
 	friend Vector operator-(Vector lhs, const Vector& rhs);
 	friend double operator*(Vector lhs, const Vector& rhs);
 	Vector operator* (double x);
+	double operator[](int x) const;
 };

@@ -32,8 +32,11 @@ int main() {
 	cout << "Vector A * 2.5\n";
 	cout << (test1 * 2.5) << endl;
 
-	cout << "Vector A * Vector B\n";
+	cout << "Vector A * Vector B \n"; 
 	cout << (test1 * test2) << endl;
+
+	cout << "Vector A[0]\n";
+	cout << test1[0] << endl;
 
 	return 0;
 }

@@ -120,3 +120,16 @@ Vector Vector::operator* (double m) {
 	Vector multiplier(x*m, y*m, z*m);
 	return multiplier;
 }
+
+double Vector::operator[] (int x) const{
+	switch (x) {
+	case 0:
+		return this->x;
+	case 1:
+		return this->y;
+	case 2:
+		return this->z;
+	default:
+		throw "null index!";
+	}
+}
